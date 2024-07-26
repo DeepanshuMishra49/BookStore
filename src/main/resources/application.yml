@@ -1,1 +1,18 @@
-spring.application.name=BookStore
+#spring.application.name=BookStore
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://mongoroot:breastmode@cluster0.pj46ov8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: BookStore
+      auto-index-creation: true
+
+server:
+  port: 8080
+
+logging:
+  file:
+    name: BookStore.log
+  level:
+    root: INFO
+    org.springframework.web: DEBUG
+    net.engineering digest.journalApp: DEBUG
