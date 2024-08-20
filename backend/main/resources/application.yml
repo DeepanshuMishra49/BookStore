@@ -9,10 +9,10 @@ spring:
 server:
   port: 8080
 
-logging:
-  file:
-    name: BookStore.log
-  level:
-    root: INFO
-    org.springframework.web: DEBUG
-    net.engineering digest.journalApp: DEBUG
+#logging:
+#  file:
+#    name: BookStore.log
+#  level:
+#    root: INFO
+#    org.springframework.web: DEBUG
+#    net.engineering digest.journalApp: DEBUG
